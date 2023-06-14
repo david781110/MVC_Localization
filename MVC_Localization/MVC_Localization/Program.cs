@@ -20,6 +20,12 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddLocalization(option=>option.ResourcesPath= "Resources");
+
+builder.Services.AddMvcCore()
+    .AddViewLocalization(Microsoft.AspNetCore.Mvc.Razor.LanguageViewLocationExpanderFormat.Suffix)
+    .AddDataAnnotationsLocalization();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -33,6 +39,14 @@ else
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
+var SupportedCultures = new[] { "zh-TW", "en-US" };
+var localizationOptions = new RequestLocalizationOptions()
+    .SetDefaultCulture(SupportedCultures[0])
+    .AddSupportedCultures(SupportedCultures)
+    .AddSupportedUICultures(SupportedCultures);
+app.UseRequestLocalization(localizationOptions);
+
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

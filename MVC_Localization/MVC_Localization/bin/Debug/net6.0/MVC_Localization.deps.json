@@ -17,6 +17,11 @@
         },
         "runtime": {
           "MVC_Localization.dll": {}
+        },
+        "resources": {
+          "en-US/MVC_Localization.resources.dll": {
+            "locale": "en-US"
+          }
         }
       },
       "Humanizer.Core/2.8.26": {

@@ -279,3 +279,8 @@ C:\Users\davidliu\Desktop\MVC_Localization\MVC_Localization\MVC_Localization\bin
 C:\Users\davidliu\Desktop\MVC_Localization\MVC_Localization\MVC_Localization\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\davidliu\Desktop\MVC_Localization\MVC_Localization\MVC_Localization\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\davidliu\Desktop\MVC_Localization\MVC_Localization\MVC_Localization\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\davidliu\Desktop\MVC_Localization\MVC_Localization\MVC_Localization\bin\Debug\net6.0\en-US\MVC_Localization.resources.dll
+C:\Users\davidliu\Desktop\MVC_Localization\MVC_Localization\MVC_Localization\obj\Debug\net6.0\MVC_Localization.Resources.WebResource.resources
+C:\Users\davidliu\Desktop\MVC_Localization\MVC_Localization\MVC_Localization\obj\Debug\net6.0\MVC_Localization.Resources.WebResource.en-US.resources
+C:\Users\davidliu\Desktop\MVC_Localization\MVC_Localization\MVC_Localization\obj\Debug\net6.0\MVC_Localization.csproj.GenerateResource.cache
+C:\Users\davidliu\Desktop\MVC_Localization\MVC_Localization\MVC_Localization\obj\Debug\net6.0\en-US\MVC_Localization.resources.dll
