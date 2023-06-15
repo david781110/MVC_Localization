@@ -12,7 +12,7 @@ namespace MVC_Localization.Models
         public string AuLname { get; set; }
 
 
-        [Display(Name ="電話號碼")]
+        [Display(Name ="Phone",ResourceType =typeof(WebResource))]
         public string Phone { get; set; }
 
     }

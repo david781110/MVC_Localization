@@ -79,6 +79,33 @@ namespace MVC_Localization.Resources {
         }
         
         /// <summary>
+        ///   查詢類似 中文 的當地語系化字串。
+        /// </summary>
+        public static string Chinese {
+            get {
+                return ResourceManager.GetString("Chinese", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類似 英文 的當地語系化字串。
+        /// </summary>
+        public static string English {
+            get {
+                return ResourceManager.GetString("English", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類似 電話號碼 的當地語系化字串。
+        /// </summary>
+        public static string Phone {
+            get {
+                return ResourceManager.GetString("Phone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查詢類似 出版社管理 的當地語系化字串。
         /// </summary>
         public static string Title {

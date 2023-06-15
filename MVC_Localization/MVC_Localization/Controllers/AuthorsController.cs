@@ -9,7 +9,7 @@ using MVC_Localization.Models;
 
 namespace MVC_Localization.Controllers
 {
-    public class AuthorsController : Controller
+    public class AuthorsController : BaseController
     {
         private readonly pubsContext _context;
 
